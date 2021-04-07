@@ -1,0 +1,10 @@
+entity Employees {
+	firstName String required maxlength(250),
+    lastName String required maxlength(250),
+    mail String required,
+    password String required
+    
+}
+
+paginate Employee with pager
+
